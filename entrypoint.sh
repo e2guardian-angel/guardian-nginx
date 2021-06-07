@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
 sh /configngx.sh
 
-/usr/sbin/nginx -c /etc/nginx/nginx.conf
+/usr/sbin/nginx -g daemon off
 

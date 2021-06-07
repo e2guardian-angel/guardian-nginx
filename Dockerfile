@@ -19,4 +19,4 @@ COPY ./configngx.sh /
 EXPOSE 80
 EXPOSE 443
 
-
+CMD ["sh", "/entrypoint.sh]
