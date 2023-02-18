@@ -6,6 +6,7 @@ RUN mkdir -p /etc/nginx/conf.https.d
 WORKDIR /etc/nginx
 
 COPY ./nginx-https.conf ./nginx-https.conf
+COPY ./default-https.conf ./conf.https.d/default-https.conf
 
 WORKDIR /
 COPY ./entrypoint.sh /
